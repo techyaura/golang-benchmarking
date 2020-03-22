@@ -11,7 +11,7 @@ function getSum(num) {
 	return sum
 }
 
-function version1() {
+function nodejsVersion() {
 	// version 1
     const arr = arrSample()
     let sum = 0
@@ -25,7 +25,7 @@ function version1() {
 
 for (let i = 0; i < 10; i++) {
 	console.time();
-	const sum = version1();
+	const sum = nodejsVersion();
 	console.log(sum)
 	console.timeEnd();
 }
